@@ -12,6 +12,7 @@ int main()
 		return 0;
 	}
 
+	fprintf("\nAbout C Program : \n\n");
 	fprintf(fp, "1. C is developed by DENNIS RITCHIE in 1972 at bell laboratories.\n");
 	fprintf(fp, "2. C is a structured language.\n");
 	fprintf(fp, "3. C is a simple and fast execution program.\n");
@@ -46,7 +47,6 @@ int main()
 	}
 
 	printf("\n\t\t==========FEEDBACK==========\n");
-	printf("\nAbout C Program : \n\n");
 
 	while ((ch = fgetc(fp)) != EOF)
 	{
